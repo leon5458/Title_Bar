@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.hly.titlebar.TitleBar
+        android:id="@+id/imgleft"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:title_text="你好啊"/>
+
+    <com.hly.titlebar.TitleBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:left_img_visible="false"
+        app:left_text_visible="true"
+        app:left_text="返回"
+        app:left_textcolor="#dd2802"
+        app:left_text_size="8dp"
+        app:layout_background_color="#e5e5e5"/>
+
+
+    <com.hly.titlebar.TitleBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:right_img_visible="true"/>
+
+    <com.hly.titlebar.TitleBar
+        android:id="@+id/test"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:right_text_visible="true"
+        app:right_text="确定"
+        app:right_textcolor="@color/colorAccent"/>
+
+    <com.hly.titlebar.TitleBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:right_img_visible="true"
+        app:right_img="@mipmap/ic_launcher"
+        app:left_text_visible="true"
+        app:left_img_visible="false"
+        app:left_text="返回" />
+
+    <com.hly.titlebar.TitleBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:right_img_visible="true"
+
+        app:right_img="@mipmap/ic_launcher"/>
+
+    <com.hly.titlebar.TitleBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:left_img_visible="false"
+        app:left_text_visible="true"
+        app:left_text="返回"
+        app:right_text_visible="true"
+        app:right_text="确定" />
+
+
+</LinearLayout>
